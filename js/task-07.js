@@ -4,5 +4,5 @@ const textEl = document.querySelector('#text');
 inputEl.addEventListener('input', onInputElChange);
 
 function onInputElChange(event) {
-    textEl.style.fontSize = event.currentTarget.value + 'px';
+    textEl.style.fontSize = `${event.currentTarget.value}px`;
 }
